@@ -1,0 +1,12 @@
+<div class="Stopwatch">
+  <div class="StopwatchClock">{{getTime()}}</div>
+  <div class="StopwatchButtons">
+    <app-button *ngIf="!isRunning" classes="ButtonStart" text="Start" (click)="start()"></app-button>
+    <app-button *ngIf="isRunning" classes="ButtonStop" text="Stop" (click)="start()"></app-button>
+    <app-button classes="ButtonWait" text="Wait" (click)="wait()"></app-button>
+    <app-button classes="ButtonReset" text="Reset" (click)="reset()"></app-button>
+    <div class="LastTime">
+      {{lastTime}}
+    </div>
+  </div>
+</div>

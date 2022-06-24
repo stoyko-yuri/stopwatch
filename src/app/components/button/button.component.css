@@ -1,0 +1,33 @@
+.Button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #cce;
+  opacity: .7;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button:hover {
+  opacity: 1;
+}
+
+.ButtonStart {
+  background: #02c39a;
+}
+
+.ButtonStop {
+  background: #f07167;
+}
+
+.ButtonWait {
+  background: #f4a261;
+}
+
+.ButtonReset {
+  background: #f07167;
+}
